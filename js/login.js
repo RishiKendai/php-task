@@ -6,7 +6,7 @@ $(document).ready(() => {
   if (uid !== null) {
     $.ajax({
       method: "post",
-      url: "/php-task/php/validateUser.php",
+      url: "/php-task-main/php/validateUser.php",
       data: { uid: uid },
       dataType: "json",
       async: true,
