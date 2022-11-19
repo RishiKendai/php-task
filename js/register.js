@@ -80,7 +80,7 @@ $("#signup").click((e) => {
     $("#signup").attr("disabled", "disabled");
     $.ajax({
       method: "post",
-      url: "/php-task/php/register.php",
+      url: "/php-task-main/php/register.php",
       data: registeredUser,
       dataType: "json",
       async: true,

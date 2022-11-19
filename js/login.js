@@ -41,7 +41,7 @@ $("#signin").click((e) => {
   };
   $.ajax({
     method: "post",
-    url: "/php-task/php/login.php",
+    url: "/php-task-main/php/login.php",
     data: userData,
     dataType: "json",
     async: true,

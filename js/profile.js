@@ -44,7 +44,7 @@ $("#update").click(() => {
   } else {
     $.ajax({
       method: "post",
-      url: "/php-task/php/profileUpdate.php",
+      url: "/php-task-main/php/profileUpdate.php",
       data: updatedUser,
       dataType: "json",
       async: true,
@@ -104,7 +104,7 @@ function fetchAndUpdateDetails() {
     // ! ajax call
     $.ajax({
       method: "get",
-      url: "/php-task/php/profile.php",
+      url: "/php-task-main/php/profile.php",
       data: { uid: uid },
       dataType: "json",
       async: true,
